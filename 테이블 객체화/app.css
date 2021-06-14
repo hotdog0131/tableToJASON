@@ -1,0 +1,154 @@
+.search_form {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.memb_list_tb {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 테이블 헤드 */
+.memb_list_tb th {
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    border-top: 2px solid #d00000;
+}
+
+/* 테이블 바디 */
+.memb_list_tb td {
+    height: 30px;
+    padding: 5px 10px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    border: 1px solid #dddddd;
+}
+
+.memb_list_tb>tbody>tr>td:nth-child(1) {
+    background-color: #f2f2f2;
+}
+
+.text_search {
+    height: 40px;
+    float: right;
+}
+
+.submit_btn {
+    font-size: 14px;
+    border: 1px solid #c4cad1;
+    width: 60px;
+    height: 100%;
+}
+
+#search_txt_key {
+    font-size: 14px;
+    border: 1px solid #c4cad1;
+    height: 100%;
+}
+
+#search_txt {
+    font-size: 14px;
+    border: 1px solid #c4cad1;
+    width: 200px;
+    height: 36px;
+}
+
+.data_record {
+    text-align: right;
+}
+
+.table_paging {
+    text-align: center;
+}
+
+#memb_tab_btn ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+#memb_tab_btn ul li {
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    ;
+    background-color: #fff;
+    width: 22%;
+    height: 50px;
+}
+
+#memb_tab_btn ul li.active {
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    ;
+    background-color: #517f7e;
+    width: 22%;
+    height: 50px;
+}
+
+#memb_tab_btn ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#memb_tab_btn ul li.active a {
+    color: #fff;
+}
+
+#upload_zone {
+    position: relative;
+}
+
+#upload_zone h1 {
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background-color: rgb(143, 143, 143);
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    position: absolute;
+}
+
+#read_contacts {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(167, 194, 253);
+    border: 1px solid black;
+    display: block;
+}
+
+#show_gwon_li {
+    width: 300px;
+    display: none;
+}
+
+#show_gwon_li thead tr th {
+    border: 1px solid gray;
+    background-color: gray;
+    font-weight: bold;
+}
+
+#show_gwon_li tbody tr td {
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wihte-space">
+        <!-- 회원정보 테이블 -->
+        <div class="table-container">
+            <!-- 데이터 건 수 출력 -->
+            <div class="data_record"><span>총 {$total_record}건, {$page}/{$total_page} Page</span></div>
+            <table id="memb_list" class="memb_list_tb" width="100%">
+                <thead>
+                    <tr>
+                        <th>사진</th>
+                        <th>성명</th>
+                        <th>성별</th>
+                        <th>전화번호</th>
+                        <th>회원등급</th>
+                        <th>주소</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tg hq_tbody">
+                        <td><img src="/thum_img/appkorea03/img/33b7533ab5be8fd93cce32050e16f89a_water__c0_w100_h100.gif"
+                                alt="사진"></td>
+                        <td>테스터</td>
+                        <td></td>
+                        <td>010-6691-2911</td>
+                        <td>테스터</td>
+                        <td> </td>
+                    </tr>
+                    <tr class="tg hq_tbody">
+                        <td><img src="/thum_img/appkorea03/img/33b7533ab5be8fd93cce32050e16f89a_water__c0_w100_h100.gif"
+                                alt="사진"></td>
+                        <td>마동매실</td>
+                        <td></td>
+                        <td>010-9453-7719</td>
+                        <td>테스터</td>
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="gwon_liSearch">
+        <h3>권리당원 검색</h3>
+        <div id="upload_zone">
+            <h1>아래 영역에 Drag&Drop</h1>
+            <input id="read_contacts" type="file">
+            <span>File Name : </span>
+            <span id="file_name"></span>
+        </div>
+
+        <table id="show_gwon_li">
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>연락처</th>
+                </tr>
+            </thead>
+            <tbody id="gwon-li">
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
